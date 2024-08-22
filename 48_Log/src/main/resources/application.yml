@@ -1,0 +1,9 @@
+logging:
+  level:
+    mj: warn
+    ca.bytetube.service: info
+#    root: warn
+  group:
+    mj:
+      - ca.bytetube.dao
+      - ca.bytetube.controller

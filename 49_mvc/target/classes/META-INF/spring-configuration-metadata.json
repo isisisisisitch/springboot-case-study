@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "project",
+      "type": "ca.bytetube.mvc.prop.ProjectProperties",
+      "sourceType": "ca.bytetube.mvc.prop.ProjectProperties"
+    },
+    {
+      "name": "project.upload",
+      "type": "ca.bytetube.mvc.prop.ProjectProperties$Upload",
+      "sourceType": "ca.bytetube.mvc.prop.ProjectProperties",
+      "sourceMethod": "getUpload()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

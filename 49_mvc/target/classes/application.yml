@@ -1,0 +1,27 @@
+spring:
+  mvc:
+    servlet:
+      load-on-startup: 0
+    format:
+      date: yyyy-MM-dd
+
+    static-path-pattern: /**
+
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 150MB
+  resources:
+    static-locations:
+      - classpath:/static/
+      - file:///${project.upload.base-path}
+
+
+
+
+
+project:
+  upload:
+    base-path: /Users/dalluo/Desktop/upload/
+    image-path: img/
+    video-path: video/

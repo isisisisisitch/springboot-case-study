@@ -1,0 +1,9 @@
+logging:
+  level:
+    mj: warn
+    com.mj.service: info
+#    root: warn
+  group:
+    mj:
+      - com.mj.dao
+      - com.mj.controller

@@ -1,0 +1,32 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /yml
+
+
+cat:
+  id: 11
+  name: Miao
+
+student:
+  id: 1
+  age: 2
+  name: bytetube
+
+  nick-names:
+    - byte
+    - tube
+    - bt
+
+  dog:
+    age: 20
+    name: larry
+  dogs:
+    - age: 11
+      name: abc_${student.dog.name}
+    - age: 22
+      name: def
+
+
+name1:
+  bytetube

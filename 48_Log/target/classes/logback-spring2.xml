@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 抽取公共内容 -->
+    <property name="PATTERN" value="%highlight([%-5p]) %red(%c{5}): %m%n"/>
+    <property name="CHARSET" value="UTF-8"/>
+
+    <!-- appender -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <charset>${CHARSET}</charset>
+            <pattern>${PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <root level="WARN">
+        <appender-ref ref="console"/>
+    </root>
+
+    <logger name="com.mj.controller" level="INFO" additivity="false">
+        <appender-ref ref="console"/>
+    </logger>
+</configuration>

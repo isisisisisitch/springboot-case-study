@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>file upload</title>
+</head>
+<body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="text" name="username">
+        <input type="file" name="photo">
+        <button type="submit">upload</button>
+    </form>
+
+    <button type="button" id="btn-add">add</button><br>
+
+    <a href="/download">download photo</a>
+
+    <script src="/webjars/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('#btn-add').click(() => {
+            alert('click add btn')
+        })
+    </script>
+</body>
+</html>

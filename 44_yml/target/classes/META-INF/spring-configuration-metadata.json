@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "jdbc",
+      "type": "ca.bytetube.domain.JdbcProperties",
+      "sourceType": "ca.bytetube.domain.JdbcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "ca.bytetube.domain.JdbcProperties"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "ca.bytetube.domain.JdbcProperties"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "ca.bytetube.domain.JdbcProperties"
+    }
+  ],
+  "hints": []
+}

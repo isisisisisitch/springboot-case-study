@@ -1,0 +1,94 @@
+{
+  "groups": [
+    {
+      "name": "cat",
+      "type": "ca.bytetube.domain.Cat",
+      "sourceType": "ca.bytetube.domain.Cat"
+    },
+    {
+      "name": "person",
+      "type": "ca.bytetube.domain.Person",
+      "sourceType": "ca.bytetube.domain.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "ca.bytetube.domain.Person$Dog",
+      "sourceType": "ca.bytetube.domain.Person",
+      "sourceMethod": "getDog()"
+    },
+    {
+      "name": "student",
+      "type": "ca.bytetube.domain.Student",
+      "sourceType": "ca.bytetube.domain.Student"
+    },
+    {
+      "name": "student.dog",
+      "type": "ca.bytetube.domain.Student$Dog",
+      "sourceType": "ca.bytetube.domain.Student",
+      "sourceMethod": "getDog()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cat.id",
+      "type": "java.lang.Integer",
+      "sourceType": "ca.bytetube.domain.Cat"
+    },
+    {
+      "name": "cat.name",
+      "type": "java.lang.String",
+      "sourceType": "ca.bytetube.domain.Cat"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "ca.bytetube.domain.Person"
+    },
+    {
+      "name": "person.dogs",
+      "type": "java.util.List<ca.bytetube.domain.Person$Dog>",
+      "sourceType": "ca.bytetube.domain.Person"
+    },
+    {
+      "name": "person.id",
+      "type": "java.lang.Integer",
+      "sourceType": "ca.bytetube.domain.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "ca.bytetube.domain.Person"
+    },
+    {
+      "name": "person.nick-names",
+      "type": "java.lang.String[]",
+      "sourceType": "ca.bytetube.domain.Person"
+    },
+    {
+      "name": "student.age",
+      "type": "java.lang.Integer",
+      "sourceType": "ca.bytetube.domain.Student"
+    },
+    {
+      "name": "student.dogs",
+      "type": "java.util.List<ca.bytetube.domain.Student$Dog>",
+      "sourceType": "ca.bytetube.domain.Student"
+    },
+    {
+      "name": "student.id",
+      "type": "java.lang.Integer",
+      "sourceType": "ca.bytetube.domain.Student"
+    },
+    {
+      "name": "student.name",
+      "type": "java.lang.String",
+      "sourceType": "ca.bytetube.domain.Student"
+    },
+    {
+      "name": "student.nick-names",
+      "type": "java.lang.String[]",
+      "sourceType": "ca.bytetube.domain.Student"
+    }
+  ],
+  "hints": []
+}

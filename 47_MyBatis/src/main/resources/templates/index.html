@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Skill</title>
+</head>
+<body>
+
+<div>
+    <a th:href="@{/skills/get(id=1)}" target="_blank">one</a>
+</div>
+
+<div>
+    <a th:href="@{/skills/list}" target="_blank">list</a>
+</div>
+
+<div>
+    save
+    <form th:action="@{/skills/save}" method="post">
+        <input name="id" placeholder="id">
+        <input name="name" placeholder="name">
+        <input name="level" placeholder="level">
+        <button type="submit">save</button>
+    </form>
+</div>
+
+<div>
+    delete
+    <form th:action="@{/skills/remove}" method="post">
+        <input name="id" placeholder="id">
+        <button type="submit">del</button>
+    </form>
+</div>
+
+</body>
+</html>

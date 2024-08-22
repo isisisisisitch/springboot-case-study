@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="954d4506-b92c-4d22-a2b0-dc8db6ab10e5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2S9tLl3GEkUBdQEXKbgkoNcS9Zi" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/49_mvc/src/main/resources/static/txt" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/49_mvc/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/49_mvc/src/main/resources/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/49_mvc/src/main/resources/static/txt" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application49 (1)">
+    <configuration name="Application47" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="47_MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ca.bytetube.Application47" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application49 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="49_mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ca.bytetube.mvc.Application49" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application49" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="49_mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ca.bytetube.Application49" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application49" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="49_mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ca.bytetube.mvc.Application49" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application_44" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="44_yml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ca.bytetube.Application" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=prd,port --server.port=8081" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application_45" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="45_jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ca.bytetube.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application_46" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="46_thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ca.bytetube.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application49" />
+      <item itemvalue="Spring Boot.Application_44" />
+      <item itemvalue="Spring Boot.Application_45" />
+      <item itemvalue="Spring Boot.Application_46" />
+      <item itemvalue="Spring Boot.Application47" />
+      <item itemvalue="Spring Boot.Application49 (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application49 (1)" />
+        <item itemvalue="Spring Boot.Application47" />
+        <item itemvalue="Spring Boot.Application_46" />
+        <item itemvalue="Spring Boot.Application_45" />
+        <item itemvalue="Spring Boot.Application_44" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="954d4506-b92c-4d22-a2b0-dc8db6ab10e5" name="Default Changelist" comment="" />
+      <created>1688570570742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688570570742</updated>
+      <workItem from="1688570572068" duration="23233000" />
+      <workItem from="1689000340049" duration="18553000" />
+      <workItem from="1689604828147" duration="9834000" />
+      <workItem from="1689632630169" duration="8989000" />
+      <workItem from="1724349069409" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/49_mvc/src/main/java/ca/bytetube/mvc/prop/ProjectProperties.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

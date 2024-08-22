@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <div th:text="${person.id}"></div>
+    <div th:text="${person.name}"></div>
+</div>
+
+<hr>
+
+<div th:object="${person}">
+    <div th:text="*{id}"></div>
+    <div th:text="*{name}"></div>
+</div>
+
+<hr>
+
+<div>
+    <div th:text="*{person.id}"></div>
+    <div th:text="*{person.name}"></div>
+</div>
+
+<hr>
+
+<div th:object="${person}">
+    <div th:text="*{#object.id}"></div>
+    <div th:text="${#object.name}"></div>
+</div>
+
+</body>
+</html>

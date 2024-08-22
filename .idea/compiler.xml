@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="45_jsp" />
+        <module name="48_Log" />
+        <module name="46_thymeleaf" />
+        <module name="44_yml" />
+        <module name="47_MyBatis" />
+        <module name="49_mvc" />
+        <module name="43_yml" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="00_parent" target="1.8" />
+      <module name="43_yml" target="1.8" />
+      <module name="44_yml" target="1.8" />
+      <module name="45_jsp" target="1.8" />
+      <module name="46_thymeleaf" target="1.8" />
+      <module name="47_MyBatis" target="1.8" />
+      <module name="48_Log" target="1.8" />
+      <module name="49_mvc" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="43_yml" options="-parameters" />
+      <module name="44_yml" options="-parameters" />
+      <module name="45_jsp" options="-parameters" />
+      <module name="46_thymeleaf" options="-parameters" />
+      <module name="47_MyBatis" options="-parameters" />
+      <module name="48_Log" options="-parameters" />
+      <module name="49_mvc" options="-parameters" />
+    </option>
+  </component>
+</project>
